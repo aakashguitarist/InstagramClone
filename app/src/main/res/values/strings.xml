@@ -6,4 +6,7 @@
     <string name="back4app_client_key">dtaROZA2QjA5O5dY5nUfNGQ8GVfEdhiSloLEccHc</string>
     <string name="title_activity_login_">Login_Activity</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>
