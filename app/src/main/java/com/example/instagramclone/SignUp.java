@@ -122,7 +122,8 @@ public void LayoutTapped(View view)
     try {
         InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
         assert inputMethodManager != null;
-        final boolean b = inputMethodManager.hideSoftInputFromWindow(Objects.requireNonNull(getCurrentFocus()).getWindowToken(), 0);
+        final boolean b = inputMethodManager.hideSoftInputFromWindow(Objects.requireNonNull(getCurrentFocus())
+                .getWindowToken(), 0);
     }
     catch(Exception e)
     {
@@ -133,6 +134,7 @@ public void transitiontoSocialMedia()
 {
     Intent intent=new Intent(SignUp.this,SocialMediaActivity.class);
     startActivity(intent);
+    finish();
 
 }
 

@@ -113,6 +113,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
     {
         Intent intent=new Intent(Login.this,SocialMediaActivity.class);
         startActivity(intent);
+        finish();
 
     }
 }
